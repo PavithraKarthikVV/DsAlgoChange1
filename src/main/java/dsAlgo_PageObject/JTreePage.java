@@ -49,9 +49,10 @@ public void practice_click()
 {	pageutil.implicit_wait(driver, practicequestionlink);
 	practicequestionlink.click();
 }
-public void enter_code(String code) 
+public void enter_code(String code) throws InterruptedException 
 {	//WebElement e=driver.switchTo().activeElement();
 //	pageutil.implicit_wait(driver, e);
+Thread.sleep(1000);
 	pageutil.entercode(driver, tryEditor, code);
 	}
 public void click_run() 

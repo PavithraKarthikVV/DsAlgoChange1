@@ -40,7 +40,7 @@ public class PageUtils {
 		}
 	 	
 	 	public static void entercode(WebDriver driver,WebElement e,String code)
-	 	{		implicit_wait(driver, e);
+	 	{		
 	 		for (int j=0;j<=40;j++) { 
 			  	e.sendKeys(Keys.DELETE);   } 
 	 			e.sendKeys(code);
