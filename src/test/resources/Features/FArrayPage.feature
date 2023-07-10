@@ -9,8 +9,8 @@ Feature: Test Array page
   Examples:
 			|	options	|
 			|	Arrays in Python	|  
- 			|	Arrays Using List |
- 			|	Basic Operations in Lists |	
+ 			|Arrays Using List |
+ 			|Basic Operations in Lists |	
  			|	Applications of Array |
  	
  	Scenario Outline: The user is able to navigate to all options in stack page

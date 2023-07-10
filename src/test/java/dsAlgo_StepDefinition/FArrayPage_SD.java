@@ -36,9 +36,8 @@ public void the_user_is_on_the_after_logged_in(String string) throws Interrupted
 
 @Then("The user in  {string} page")
 public void the_user_in_page(String string) {
-String act=driver.getTitle().strip();
-String exp=string.strip();
-	Assert.assertEquals(act,exp);
+	
+	Assert.assertEquals(driver.getTitle().strip(),string.strip());
 }
 
 @When("The user clicks {string} button")
