@@ -5,11 +5,11 @@ Feature: Test Array page
   Scenario Outline: The user is able to navigate to all options in array page
     Given The user is on the "Array" after logged in
     When The user clicks "<options>" button
-    Then The user in "<options>" page
+    Then The user in  "<options>" page
   Examples:
 			|	options	|
 			|	Arrays in Python	|  
- 			| Arrays Using List |
+ 			|	Arrays Using List |
  			|	Basic Operations in Lists |	
  			|	Applications of Array |
  	

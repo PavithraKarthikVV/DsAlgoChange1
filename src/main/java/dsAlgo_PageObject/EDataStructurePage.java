@@ -22,7 +22,7 @@ public class EDataStructurePage {
 		 @FindBy(id = "output")private WebElement outputbox;
 		  @FindBy(xpath="//*[@id='answer_form']/div/div/div[1]/textarea")private WebElement tryEditor;
 	@FindBy(xpath ="//button[text()='Run']")private WebElement runBtn;
-	 @FindBys(value = { @FindBy(how = How.XPATH,using="//div[contains(@style,'margin-bottom')]/ul")}) private List<WebElement> datastructuremenu;
+	 @FindBys(value = {@FindBy(how = How.XPATH,using="//div[contains(@style,'margin-bottom')]/ul")}) private List<WebElement> datastructuremenu;
 	private WebDriver driver;
 
 	public EDataStructurePage(WebDriver driver)
