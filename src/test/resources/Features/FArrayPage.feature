@@ -20,8 +20,8 @@ Feature: Test Array page
   Examples:
  			|	options	|
 			|	Arrays in Python	|  
- 			|	Arrays Using List |
- 			|	Basic Operations in Lists |	
+ 			|Arrays Using List |
+ 			|Basic Operations in Lists |	
  			|	Applications of Array |
  	
  	
@@ -33,8 +33,8 @@ Feature: Test Array page
 		 Examples: 
    		| options | Sheetname  | RowNumber |
       | Arrays in Python |array|  0 |
-    	| Arrays Using List |list|0|
- 			|	Basic Operations in Lists |basicoperation|0|	
+    	|Arrays Using List |list|0|
+ 			|Basic Operations in Lists |basicoperation|0|	
  			|	Applications of Array |application|0|
 
  		Scenario Outline: The user is able run code in tryEditor 
@@ -45,8 +45,8 @@ Feature: Test Array page
 		 Examples: 
    		| options | Sheetname  | RowNumber |
       | Arrays in Python |array|  1 |
-    	| Arrays Using List |list|1|
- 			|	Basic Operations in Lists |basicoperation|1|	
+    	|Arrays Using List |list|1|
+ 			|Basic Operations in Lists |basicoperation|1|	
  			|	Applications of Array |application|1|
  			
   @Tag
@@ -64,9 +64,9 @@ Feature: Test Array page
 		Examples: 
    		|						 options 											| 			Sheetname  		|			 RowNumber		|
       | Search the array 												|	practicequestion		|				  0 				|
-    	| Max Consecutive Ones 										|	practicequestion		|					1					|
- 			|	Find Numbers with Even Number of Digits	|	practicequestion		|					2					|	
- 			|	Squares of a Sorted Array 							|	practicequestion		|					3					|	
+    	| Max Consecutive Ones 										|	practicequestion		|					0					|
+ 			|	Find Numbers with Even Number of Digits	|	practicequestion		|					0					|	
+ 			|	Squares of a Sorted Array 							|	practicequestion		|					0					|	
 		
  		
  		Scenario Outline: The user is able to run code in Practice session of Array in python
@@ -77,9 +77,9 @@ Feature: Test Array page
  		 Examples: 
    		|						 options 											| 			Sheetname  		|			 RowNumber		|
       | Search the array 												|	practicequestion		|				  0 				|
-    	| Max Consecutive Ones 										|	practicequestion		|					1					|
- 			|	Find Numbers with Even Number of Digits	|	practicequestion		|					2					|	
- 			|	Squares of a Sorted Array 							|	practicequestion		|					3					|	
+    	| Max Consecutive Ones 										|	practicequestion		|					0					|
+ 			|	Find Numbers with Even Number of Digits	|	practicequestion		|					0					|	
+ 			|	Squares of a Sorted Array 							|	practicequestion		|					0					|	
  
  
  Scenario Outline: The user is able to run code in tryEditor for Practice session of Array in python
@@ -91,9 +91,9 @@ Feature: Test Array page
 		 Examples: 
    		|						 options 											| 			Sheetname  		|			 RowNumber		|
       | Search the array 												|	practicequestion		|				  0 				|
-    	| Max Consecutive Ones 										|	practicequestion		|					1					|
- 			|	Find Numbers with Even Number of Digits	|	practicequestion		|					2					|	
- 			|	Squares of a Sorted Array 							|	practicequestion		|					3					|	
+    	| Max Consecutive Ones 										|	practicequestion		|					0					|
+ 			|	Find Numbers with Even Number of Digits	|	practicequestion		|					0					|	
+ 			|	Squares of a Sorted Array 							|	practicequestion		|					0				|	
 
  Scenario Outline: The user is able to run invald code in tryEditor for Practice session of Array in python
  		Given The user is in a "<options>"  practice page having an tryEditor with a Run button to test
@@ -102,9 +102,9 @@ Feature: Test Array page
  		Then The user should be presented with error message
 		 Examples: 
    		|						 options 											| 			Sheetname  		|			 RowNumber		|
-      | Search the array 												|	practicequestion		|				  4 				|
-    	| Max Consecutive Ones 										|	practicequestion		|					5					|
- 			|	Find Numbers with Even Number of Digits	|	practicequestion		|			    6  				|	
- 			|	Squares of a Sorted Array 							|	practicequestion		|					7			  	|	
+      | Search the array 												|	practicequestion		|				  1 				|
+    	| Max Consecutive Ones 										|	practicequestion		|					1					|
+ 			|	Find Numbers with Even Number of Digits	|	practicequestion		|			    1					|	
+ 			|	Squares of a Sorted Array 							|	practicequestion		|					1			  	|	
  
   
