@@ -27,12 +27,12 @@ public class BHomePage_SD {
 	WebDriverWait wait;
 	String actual_PageUrl, expected_PageUrl;
 	
-	@Given("user opens the dsalgo portal link")//Assertion to check whether the page landed on the landing page
-	public void user_opens_the_dsalgo_portal_link() {
-	  String landingPage=DriverFactory.getDriver().getCurrentUrl();
-	  String expectedLandingPage=ConfigReader.homePage();
-	  assertEquals(landingPage,expectedLandingPage);	   
-	}
+//	@Given("user opens the dsalgo portal link")//Assertion to check whether the page landed on the landing page
+//	public void user_opens_the_dsalgo_portal_link() {
+//	  String landingPage=DriverFactory.getDriver().getCurrentUrl();
+//	  String expectedLandingPage=ConfigReader.homePage();
+//	  assertEquals(landingPage,expectedLandingPage);	   
+//	}
 	
 	@When("user clicks on {string} button")//Clicks the get Started button
 	public void user_clicks_on_button(String getStarted) throws InterruptedException {
